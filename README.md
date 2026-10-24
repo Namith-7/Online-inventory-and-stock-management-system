@@ -80,3 +80,5 @@ Set `DATABASE_URL` and a unique `SESSION_SECRET` in the hosting provider's envir
 
 For a production launch, add email-backed password reset, staff invitations, a shared rate limiter, and a migration review process before opening account creation to the public. The current role model supports staff/viewer roles but the signup flow intentionally creates only an administrator; staff invitation and role-management screens are not included.
 
+See [DEPLOYMENT.md](DEPLOYMENT.md) for the Railway + MySQL deployment steps. GitHub Pages cannot run this server-backed app.
+
